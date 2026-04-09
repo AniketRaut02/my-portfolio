@@ -6,20 +6,21 @@ import { ArrowRight, Mail } from "lucide-react"
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Video Background Placeholder */}
+      {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background z-10" />
-        {/* Placeholder for showreel video */}
-        <div className="w-full h-full bg-secondary flex items-center justify-center">
-          <div className="text-center text-muted-foreground">
-            <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-muted flex items-center justify-center">
-              <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
-              </svg>
-            </div>
-            <p className="text-sm">[Insert Showreel Video Placeholder]</p>
-          </div>
-        </div>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hero%20Section%20Video1-IpthoxLdxpRgjBimPWyV5yEp4cxoOe.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
 
       {/* Animated grid overlay */}

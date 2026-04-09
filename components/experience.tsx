@@ -20,8 +20,8 @@ const experiences = [
   {
     title: "Unity Developer Intern",
     company: "Vanarlabs Pvt Ltd",
-    companyUrl: "#",
-    period: "2024",
+    companyUrl: "https://www.namasteabc.com/",
+    period: "Jan 2026 - Apr 2026",
     description:
       "Contributed to the development of \"NamasteABC\", a kids learning app that ensures children do not forget their Indian culture and stay rooted towards it.",
     achievements: [

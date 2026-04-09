@@ -3,19 +3,31 @@ export function About() {
     <section id="about" className="py-24 bg-background">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
-          {/* Section Label */}
-          <div className="flex items-center gap-4">
-            <div className="h-px w-12 bg-primary" />
-            <h2 className="text-sm font-medium uppercase tracking-widest text-primary">
-              About
-            </h2>
+          {/* Profile Image */}
+          <div className="flex justify-center md:justify-start">
+            <div className="relative w-48 h-48 rounded-lg overflow-hidden border-2 border-primary/30 shadow-lg">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/profile%20pic-mRapdCyc54FCzQXdXb4hSpId4BsSRp.jpg"
+                alt="Aniket Raut - Game Developer"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />
+            </div>
           </div>
 
           {/* Content */}
           <div className="space-y-6">
-            <h3 className="text-3xl md:text-4xl font-bold text-foreground font-[family-name:var(--font-display)] leading-tight">
-              Building immersive gaming experiences through code and creativity
-            </h3>
+            <div>
+              <div className="flex items-center gap-4 mb-4">
+                <div className="h-px w-12 bg-primary" />
+                <h2 className="text-sm font-medium uppercase tracking-widest text-primary">
+                  About
+                </h2>
+              </div>
+              <h3 className="text-3xl md:text-4xl font-bold text-foreground font-[family-name:var(--font-display)] leading-tight">
+                Building immersive gaming experiences through code and creativity
+              </h3>
+            </div>
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>

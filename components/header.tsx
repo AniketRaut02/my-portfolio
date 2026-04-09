@@ -58,7 +58,7 @@ export function Header() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
             <Button asChild className="gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="#" download>
+              <a href="/Aniket-Raut-Resume.pdf" download="Aniket-Raut-Resume.pdf">
                 <Download className="h-4 w-4" />
                 Download Resume
               </a>
@@ -90,7 +90,7 @@ export function Header() {
                 </Link>
               ))}
               <Button asChild className="gap-2 w-fit bg-primary text-primary-foreground hover:bg-primary/90">
-                <a href="#" download>
+                <a href="/Aniket-Raut-Resume.pdf" download="Aniket-Raut-Resume.pdf">
                   <Download className="h-4 w-4" />
                   Download Resume
                 </a>
