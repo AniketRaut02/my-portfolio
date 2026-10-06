@@ -10,6 +10,8 @@ import re4Thumb from "@/assets/re4-thumb.png";
 import btreeMedia from "@/assets/btree-media.png";
 import re4Media from "@/assets/re4-media.png";
 import physicsMedia from "@/assets/physics-media.png";
+import reverseThumb from "@/assets/reverse-thumb.png";
+import reverseVideo from "@/assets/reverse.mp4";
 
 export type Project = {
   slug: string;
@@ -117,6 +119,21 @@ export const projects: Project[] = [
     media: { type: "video" },
     hoverVideo: linkshiftVideo,
     externalLink: "https://aniketraut.itch.io/link-shift",
+  },
+  {
+    slug: "re-verse",
+    title: "RE:VERSE",
+    kind: "Game",
+    year: "2026",
+    role: "Gameplay · Mechanics",
+    tags: ["Unity 2D", "C#", "Top-Down", "Game Jam"],
+    summary:
+      "A 2D sci-fi puzzle game built for the IIITN Game Jam around inverted reality, featuring a unique Manipulation Window mechanic, physics-based puzzles, and dynamic level interactions.",
+    thumbnail: "reverse",
+    thumbnailImage: reverseThumb,
+    media: { type: "video" },
+    hoverVideo: reverseVideo,
+    externalLink: "https://shiiivani.itch.io/re-verse",
   },
 ];
 

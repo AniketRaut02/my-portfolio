@@ -16,6 +16,8 @@ const gradients: Record<string, string> = {
     "from-[oklch(0.26_0.03_60)] via-[oklch(0.18_0.02_240)] to-[oklch(0.14_0.005_240)]",
   horror2d:
     "from-[oklch(0.22_0.02_280)] via-[oklch(0.16_0.01_260)] to-[oklch(0.12_0.005_240)]",
+  reverse:
+    "from-[oklch(0.25_0.05_15)] via-[oklch(0.18_0.03_340)] to-[oklch(0.12_0.005_240)]",
 };
 
 function PlaceholderArt({ id }: { id: string }) {
